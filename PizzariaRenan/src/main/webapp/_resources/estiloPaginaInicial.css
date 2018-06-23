@@ -1,0 +1,148 @@
+body {
+    background: url(../_imagens/background.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width: 770px) {
+
+  #menu-desktop {
+      top: 0;
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      background: #FFFFFF;
+      opacity: 0.9;
+  }
+
+  .inside-header {
+      max-width: 900px;
+      padding: 15px 30px;
+      overflow: hidden;
+      box-sizing: border-box;
+  }
+
+    #menu-desktop img {
+      margin: 0 auto;
+  }
+
+    .inside-header nav a {
+        display: inline-block;
+        color: #666666;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .inside-header nav {
+        padding: 3px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .inside-header nav a:not(:last-of-type) {
+        padding-right: 30px;
+    }
+
+    .padded {
+      padding-top: 80px;
+    }
+
+    #menu-mobile {
+      display: none;
+    }
+
+    .menu-top {
+      position: fixed;
+      z-index: 150;
+    }
+}
+
+@media (max-width: 769px) {
+    .alinha {
+      text-align: center;
+    }
+
+    #menu-desktop {
+      display: none;
+    }
+
+    .padded {
+      padding-top: 120px;
+    }
+
+    #menu-mobile {
+      background-color: #FFFFFF;
+      position: fixed;
+      opacity: 0.9;
+      z-index: 150;
+    }
+
+    .menu-button {
+      margin: 10px;
+      background-color: #FFFFFF;
+    }
+}
+
+.botoes-cardapio {
+  background-color: transparent;
+  border: none;
+  margin-top: 50px;
+}
+
+#inicio {
+  padding-top: 80px;
+}
+
+.fonte-acme {
+  font-family: 'Acme', sans-serif;
+}
+
+.fonte-lobster {
+  font-family: 'Lobster', cursive;
+}
+
+.fonte-mark {
+  font-family: 'Marck Script', cursive;
+}
+
+.backgrounded {
+    background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.paineis {
+  margin-bottom: 40px;
+}
+
+.cardapios {
+  list-style: none;
+}
+
+.titulopreco {
+  font-family: 'Lato', sans-serif;
+  clear: both;
+}
+
+.titulo {
+  color: red;
+  float: left;
+}
+
+.preco {
+  color: green;
+  float: right;
+  padding-left: 27px;
+}
+
+.descricao {
+  clear: both;
+}
+
+.grande-broto {
+  float: right;
+  padding-left: 20px;
+}

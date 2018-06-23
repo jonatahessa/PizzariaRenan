@@ -1,0 +1,13 @@
+#barra-superior {
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+}
+
+#pizzas {
+  padding-top: 150px;
+}
+
+#options {
+  margin-bottom: 50px;
+}
