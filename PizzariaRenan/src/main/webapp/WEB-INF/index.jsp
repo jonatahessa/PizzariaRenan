@@ -15,7 +15,7 @@
         <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
         <link href="https://fonts.googleapis.com/css?family=Acme|Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
-        <title>Pizzaria Modelo</title>
+        <title>Rennan Pizzas</title>
     </head>
     <body>
       <section class="container-fluid">

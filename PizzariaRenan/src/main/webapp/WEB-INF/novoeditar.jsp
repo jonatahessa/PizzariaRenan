@@ -45,12 +45,12 @@
                   </div>
 
                   <div id="preco" class="form-group">
-                      <label for="">Preço</label>
+                      <label for="">Entrega</label>
                       <input class="form-control" type="text" value="${produto.preco}" name="preco"/>
                   </div>
 
                   <div id="broto" class="form-group">
-                      <label for="">Broto</label>
+                      <label for="">Retirar</label>
                       <input class="form-control" type="text" value="${produto.precoBroto}" name="precoBroto"/>
                   </div>
 
