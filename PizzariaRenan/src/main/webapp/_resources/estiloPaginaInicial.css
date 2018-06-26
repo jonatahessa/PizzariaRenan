@@ -6,6 +6,19 @@ body {
     background-size: cover;
 }
 
+#cabecalho {
+  background: url(../_imagens/pizzahome.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+#cabecalho h1 {
+  margin: 150px;
+}
+
 @media (min-width: 770px) {
 
   #menu-desktop {
@@ -14,7 +27,7 @@ body {
       overflow: hidden;
       box-sizing: border-box;
       margin-bottom: 20px;
-      background: #FFFFFF;
+      background: #00470c;
       opacity: 0.9;
   }
 
@@ -31,7 +44,6 @@ body {
 
     .inside-header nav a {
         display: inline-block;
-        color: #666666;
         text-decoration: none;
         font-size: 14px;
         cursor: pointer;
@@ -75,7 +87,7 @@ body {
     }
 
     #menu-mobile {
-      background-color: #FFFFFF;
+      background-color: #00470c;
       position: fixed;
       opacity: 0.9;
       z-index: 150;
@@ -83,8 +95,13 @@ body {
 
     .menu-button {
       margin: 10px;
-      background-color: #FFFFFF;
+      background-color: #00470c;
     }
+}
+
+.contorno {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
 }
 
 .botoes-cardapio {
@@ -109,8 +126,16 @@ body {
   font-family: 'Marck Script', cursive;
 }
 
+.fonte-amaranth {
+  font-family: 'Amaranth', sans-serif;
+}
+
+.fonte-courgette {
+  font-family: 'Courgette', cursive;
+}
+
 .backgrounded {
-    background-color: #FFFFFF;
+    background-color: #00470c;
     opacity: 0.9;
 }
 
