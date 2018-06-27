@@ -6,18 +6,14 @@ body {
     background-size: cover;
 }
 
-#cabecalho {
+/**#cabecalho {
   background: url(../_imagens/pizzahome.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 400px;
-}
-
-#cabecalho h1 {
-  margin: 150px;
-}
+}*/
 
 @media (min-width: 770px) {
 
@@ -141,6 +137,7 @@ body {
 
 .paineis {
   margin-bottom: 40px;
+  padding: 40px;
 }
 
 .cardapios {

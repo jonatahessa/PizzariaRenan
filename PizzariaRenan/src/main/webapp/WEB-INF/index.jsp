@@ -53,9 +53,9 @@
                     <hr/>
                     <div class="row justify-content-center">
                         <div id="cabecalho" class="col-11">
-                            <h1 class="contorno display-1 fonte-courgette text-warning text-center">Rennan Pizzas</h1>
+                            <img class="img-fluid" src="./_imagens/pizzahome.jpg" alt="">
                         </div>
-                        <div class="col-9 text-light">
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 text-light">
                             <p>Tradicional na região, a <strong>PIZZARIA MODELO</strong> vem unindo a tradição da pizza com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender à expectativa dos clientes” como sinônimo de qualidade.</p>
                             <p>Com investimento constante nas instalações, produtos e serviços, faz com que a <strong>PIZZARIA MODELO</strong> seja considerada um novo clássico na terra das pizzarias.</p>
                             <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue sempre a ser: SERVIR PIZZAS COM CARINHO, DEDICAÇÃO E ALEGRIA.</p>
@@ -70,7 +70,7 @@
                     <hr/>
                     <c:forEach var="promocao" items="${promocoes}">
                         <div class="row justify-content-center">
-                            <div class="paineis col-xs-12 col-sm-12 col-md-8 col-lg-6 border border-danger text-center">
+                            <div class="paineis col-xs-12 col-sm-12 col-md-8 col-lg-6 border border-danger text-center bg-light">
                                 <h2 class="text-danger fonte-acme">${promocao.nome}</h2>
                                 <h3 class="text-dark fonte-acme">${promocao.descricao}</h3>
                                 <h2 class="text-success fonte-acme">${promocao.preco}</h2>
@@ -87,7 +87,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-8">
                             <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-pizzas">
-                                <img class="col-5" src="./_imagens/pizzasalgada.png" alt="Foto de uma pizza salgada"><h3 class="fonte-acme text-warning">Clique para abrir as Pizzas Salgadas</h3>
+                                <img class="col-5" src="./_imagens/pizzasalgada.png" alt="Foto de uma pizza salgada"><h3 class="fonte-acme text-warning">Clique para abrir Pizzas Salgadas</h3>
                             </button>
                         </div>
                     </div>
@@ -95,7 +95,15 @@
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-8">
                             <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-doces">
-                                <img class="col-5" src="./_imagens/pizzadoce.png" alt="Foto de uma pizza doce"><h3 class="fonte-acme text-warning">Clique para abrir as Pizzas Doces</h3>
+                                <img class="col-5" src="./_imagens/pizzadoce.png" alt="Foto de uma pizza doce"><h3 class="fonte-acme text-warning">Clique para abrir Pizzas Doces</h3>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-lg-8">
+                            <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-beirutes">
+                                <img class="col-5" src="./_imagens/beirute.png" alt="Foto de um beirute"><h3 class="fonte-acme text-warning">Clique para abrir Beirutes</h3>
                             </button>
                         </div>
                     </div>
@@ -106,7 +114,7 @@
                 <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section4 padded">
                     <h1 class="fonte-amaranth text-warning">Localização</h1>
                     <hr/>
-                    <h4 class="text-center text-light">Rua Dr. Abelardo Vergueiro Cesar, 132 - Vila Alexandria, São Paulo - SP</h4>
+                    <h4 class="text-center text-light">Rua Professor Belfort Sabino, 370 - Campininha, São Paulo - SP</h4>
                     <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5021.877653908174!2d-46.67106914488145!3d-23.638162945045554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9946459dfceec7f3!2sPizzaria+Donatello!5e0!3m2!1spt-BR!2sbr!4v1520085393652" height="500px;" allowfullscreen></iframe>
                 </div>
             </div>
@@ -117,15 +125,13 @@
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="col-12">
-                            <h2 class="text-center display-4">
-                                <a class="text-light" href="tel:01150316244"><strong>5031-6244</strong></a><br/>
-                                <a class="text-light" href="tel:01150319484"><strong>5031-9484</strong></a><br/>
-                                <a class="text-light" href="tel:011982969045"><strong>98296-9045</strong></a>
-                                <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
-                            </h2>
-                            <h3 class="text-center text-light">Horário de funcionamento</h3>
-                            <h4 class="text-center text-light">Domingo a Quinta das 18:00h às 23:30h</h4>
-                            <h4 class="text-center text-light">Sexta e Sábado das 18:00h às 00:00h</h4>
+                            <div class="text-center display-4">
+                                <h1 class="text-light">5631-1685</h1>
+                                <a class="btn btn-warning col-xs-10 col-sm-10 col-md-6 col-lg-5" href="tel:01156311685">Ligue!</a>
+                                <h1 class="text-light">5631-5033</h1>
+                                <a class="btn btn-warning col-xs-10 col-sm-10 col-md-6 col-lg-5" href="tel:01156315033">Ligue!</a>
+                            </div>
+                            <h3 class="text-center text-light">Atendemos todos os dias das 17h às 0h.</h3>
                             <p class="text-center text-light">Copyright (c) Pizzaria Modelo Copyright Holder All Rights Reserved.</p>
                             <p class="text-center text-light">Developed by Jonata Hessa</p>
                         </div>
@@ -146,8 +152,8 @@
                 </div>
                 <div class="modal-body">
                     <ul class="col-12 cardapios">
-                        <p class="grande-broto">Grande</p>
-                        <p class="grande-broto">Broto</p>
+                        <p class="grande-broto">Entrega</p>
+                        <p class="grande-broto">Retirada</p>
                         <c:forEach var="pizza" items="${pizzas}">
                             <li class="menu-category titulopreco">
                                 <div class="">
@@ -179,8 +185,8 @@
                 </div>
                 <div class="modal-body">
                     <ul class="col-12 cardapios">
-                        <p class="grande-broto">Grande</p>
-                        <p class="grande-broto">Broto</p>
+                      <p class="grande-broto">Entrega</p>
+                      <p class="grande-broto">Retirada</p>
                         <c:forEach var="doce" items="${doces}">
                             <li class="menu-category titulopreco">
                                 <div class="">
@@ -188,6 +194,39 @@
                                     <p class="preco"><strong>${doce.preco}</strong></p>
                                     <p class="preco"><strong>${doce.precoBroto}</strong></p>
                                     <p class="descricao">${doce.descricao}</p>
+                                </div>
+                            </li>
+                        </c:forEach>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar Cardapio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-beirutes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Beirutes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="col-12 cardapios">
+                      <p class="grande-broto">Entrega</p>
+                      <p class="grande-broto">Retirada</p>
+                        <c:forEach var="beirute" items="${beirutes}">
+                            <li class="menu-category titulopreco">
+                                <div class="">
+                                    <p class="titulo"><strong>${beirute.nome}</strong></p>
+                                    <p class="preco"><strong>${beirute.preco}</strong></p>
+                                    <p class="preco"><strong>${beirute.precoBroto}</strong></p>
+                                    <p class="descricao">${beirute.descricao}</p>
+
                                 </div>
                             </li>
                         </c:forEach>

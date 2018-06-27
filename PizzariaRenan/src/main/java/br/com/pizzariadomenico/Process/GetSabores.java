@@ -30,6 +30,7 @@ public class GetSabores extends HttpServlet {
         response.setCharacterEncoding("UTF-8");
         List<Produto> pizzas = Utils.ListarPizzasPaginaInicial("PIZZA");
         List<Produto> doces = Utils.ListarPizzasPaginaInicial("DOCE");
+        List<Produto> beirutes = Utils.ListarPizzasPaginaInicial("BEIRUTE");
         List<Produto> promocao = Utils.ListarPizzasPaginaInicial("PROMOCAO");
         
         if (promocao != null) {
@@ -40,6 +41,7 @@ public class GetSabores extends HttpServlet {
         }
         request.setAttribute("pizzas", pizzas);
         request.setAttribute("doces", doces);
+        request.setAttribute("beirutes", beirutes);
         request.setAttribute("promocoes", promocao);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.jsp");
         dispatcher.forward(request, response);
